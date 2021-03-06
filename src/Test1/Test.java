@@ -14,6 +14,9 @@ public class Test {
 		System.out.println("Que tal?");
 		
 		Raspuns r1=new Raspuns();
+		Masini a=new Masini(2012, "albastra", "Volvo");
+		a.Afisare();
+		
 	}
 
 }
