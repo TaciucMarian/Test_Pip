@@ -9,6 +9,7 @@ public class Masini {
 		an_productie=an;
 		culoare=cul;
 		this.marca=marca;
+		System.out.println("S-a apelat constr. cu argumente de la Masini");
 	}
 	
 	void Afisare(){
