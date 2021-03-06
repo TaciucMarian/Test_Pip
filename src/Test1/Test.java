@@ -14,6 +14,8 @@ public class Test {
 		System.out.println("Que tal?");
 		
 		Raspuns r1=new Raspuns();
+		
+		System.out.println("Imi pare rau ca nu am raspuns mai devreme");
 	}
 
 }
