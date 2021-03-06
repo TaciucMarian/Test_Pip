@@ -16,6 +16,10 @@ public class Test {
 		Raspuns r1=new Raspuns();
 		
 		System.out.println("Imi pare rau ca nu am raspuns mai devreme");
+		
+		Masini a=new Masini(2012, "albastra", "Volvo");
+		a.Afisare();
+		
 	}
 
 }
