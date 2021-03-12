@@ -8,7 +8,7 @@ class Raspuns{
 }
 
 public class Test {
-	public static void main(String[] args){
+	public static void main(String[] args) throws Exception{
 		
 		System.out.println("Primul test");
 		System.out.println("Que tal?");
@@ -18,7 +18,11 @@ public class Test {
 		System.out.println("Imi pare rau ca nu am raspuns mai devreme");
 		
 		Masini a=new Masini(2012, "albastra", "Volvo");
+		Masini b=new Masini(2021, "negru", "BMW");
+		
+		
 		a.Afisare();
+		b.print(0);
 		
 	}
 
